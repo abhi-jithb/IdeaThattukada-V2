@@ -1,5 +1,6 @@
 import "./App.css"
 import Header from "@/components/Header"
+import EmptyState from "@/components/EmptyState"
 
 function App(){
   return(
@@ -9,10 +10,11 @@ function App(){
         subtitle="Stack poping up ideas in a nest without loosing"
         />
 
-      <section className="empty-state">
-        <h2>No project yet</h2>
-        <p>Your proejct notebook will apper here</p>
-      </section>
+      <EmptyState 
+        title = "No Project YET"
+        subtitle = "Project NoteBook will appear here.."
+      />
+
     </main>
   )
 }
