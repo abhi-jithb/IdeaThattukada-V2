@@ -1,6 +1,6 @@
 import "./App.css"
-import Header from "@/components/Header"
-import EmptyState from "@/components/EmptyState"
+import Header from "../../src/components/Header"
+import EmptyState from "../../src/components/EmptyState"
 
 function App(){
   return(
