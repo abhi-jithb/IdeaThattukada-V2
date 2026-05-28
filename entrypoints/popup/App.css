@@ -1,0 +1,23 @@
+.container{
+  padding:20;
+}
+.header h1{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.header p{
+  color: #b0b0c3;
+  font-size: 14;
+}
+.empty-state{
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 16px;
+  background: rgb(255,255,255,0.05);
+}
+.empty-state h2{
+  margin-bottom: 8px;
+}
+.empty-state p{
+  color: #b0b0c3;
+}
