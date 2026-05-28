@@ -1,12 +1,13 @@
 import "./App.css"
+import Header from "@/components/Header"
 
 function App(){
   return(
     <main className="container">
-      <header className="header">
-        <h1>Idea Thattukada</h1>
-        <p>Each bite of tea and snack = new Ideas</p>
-      </header>
+      <Header 
+        title="Idea Thattukada V2"
+        subtitle="Stack poping up ideas in a nest without loosing"
+        />
 
       <section className="empty-state">
         <h2>No project yet</h2>
